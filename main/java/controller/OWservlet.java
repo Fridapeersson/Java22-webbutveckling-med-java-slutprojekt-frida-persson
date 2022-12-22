@@ -40,7 +40,6 @@ public class OWservlet extends HttpServlet {
 				response.addCookie(new Cookie("userInput", temp + "<br>" + cityStr + countryStr));
 			}
 		}
-//		String[] tempSplit = temp.split("<br>");
 		
 		weatherBean wBean = new weatherBean(cityStr, countryStr);
 		GettheWeather.getWeather(wBean);
