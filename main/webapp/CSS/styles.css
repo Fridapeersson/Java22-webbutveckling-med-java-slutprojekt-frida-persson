@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+.btn{
+	padding: 10px;
+}
+.btn:hover{
+	background-color: limegreen;
+}
+.weather-info{
+	text-align: center;
+	font-size: 20px;
+	align-items: center;
+	margin-top: 40px;
+}
+.flex{
+	display: flex;
+	justify-content: center;
+}
+.last-search{
+	text-align: center;
+}
+.submit{
+	padding: 5px;
+	margin: 5px;
+}
+body{
+	background-color: #FAFA;	
+}
+div{
+	text-align: center;
+	margin-top: 4em;
+	font-size: 15px;	
+}
+h1{
+	text-align: center;
+	margin-top: 1.5em;
+}
+h2{
+	text-decoration: underline;
+}
